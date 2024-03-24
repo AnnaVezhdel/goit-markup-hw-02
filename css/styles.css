@@ -11,11 +11,9 @@ a {
 }
 .visually-hidden {
     clip-path: inset(50%);
-    height: 1px;
     overflow: hidden;
-    position: absolute;
     white-space: nowrap;
-    width: 1px;}
+}
 .logo {
     font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -28,7 +26,7 @@ color: #4d5ae5;
 .header-logo {
     color: #2e2f42;
 }
-.studio {
+.menu {
     color: #2e2f42;
 }
 .nav-menu {
@@ -43,8 +41,10 @@ color: #2e2f42;
 .nav-menu :active {
     color: #404bbf;
 }
+.address {
+    font-style: normal; 
+}
 .contacts {
-    font-style: normal;
     font-weight: 400;
 font-size: 16px; 
 line-height: 1.5;
